@@ -1,0 +1,30 @@
+
+.search-bar {
+  position: absolute;
+  top: 416px;
+  left: 703px;
+  border-radius: 26px;
+  width: 247px;
+  height: 48px;
+  background-color: #E55D5D;
+  background-image: url(../images/SearchIcon.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  z-index: 5;
+}
+
+.search-text {
+  border-radius: 26px;
+  width: 247px;
+  height: 43px;
+  margin-left: -50px;
+  background-color: #fff;
+  background-image: url(../images/_ionicons_svg_ios-book.svg);
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  color: #222222;
+  font-family: "Noto Sans", Regular, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  z-index: 10;
+}
