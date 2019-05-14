@@ -1,0 +1,164 @@
+
+body {
+  background-color: #eee;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 10px auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #fff;
+
+}
+
+nav {
+  width: 100%;
+  height: 79px;
+  font-family: "Noto Sans", Regular, sans-serif;
+  font-size: 22px;
+}
+
+nav a {
+  height: 30px;
+  color: #314E65;
+  position: absolute;
+}
+
+nav .logo {
+  position: relative;
+  width: 150px;
+  height: 36px;
+  left: 23px;
+  top: 11px;
+  /* margin: 23px 11px 0 32px; */
+}
+
+nav .buy-credits {
+  width: 180px;
+  left: 756px;
+  top: 25px;
+  /* margin: 25px 0 24px 483px; */
+  color: #65C1F4;
+}
+nav .buy-credits img {
+  width: 22px;
+  height: 22px;
+  margin-right: 15px;
+  margin-top: 5px;
+  /* margin: 4px 20px 4px 0; */
+}
+
+nav .login {
+  left: 970px;
+  top: 25px;
+  /* margin: 25px 0 24px 54px; */
+  width: 82px;
+}
+nav .login img {
+  /* margin-left: 10px; */
+  width: 13px;
+  height: 13px;
+}
+
+nav .signup {
+  left: 1101px;
+  width: 107px;
+  top: 25px;
+}
+nav .signup img {
+  /* margin-left: 10px; */
+}
+
+nav .language {
+  left: 1288px;
+  top: 30px;
+  width: 40px;
+  height: 26px;
+  font-size: 11px;
+}
+nav .language img {
+  margin-right: 5px;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #314E65;
+  margin-left: 10px;
+}
+
+.splash {
+  width: 100%;
+  height: 520px;
+  background-image: url(images/matt-ragland-853708-unsplash.png);
+  opacity: 61%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/matt-ragland-853708-unsplash.svg);
+  background-size: cover;
+  z-index: 1;
+}
+
+.splash .main-title {
+  font-size: 38px;
+  font-family: Continuo, Regular, sans-serif;
+  text-transform: uppercase;
+  width: 485px;
+  height: 112px;
+  position: absolute;
+  top: 232px;
+  left: 579px;
+  /* margin: 142px 376px 266px 379px; */
+  color: #D6E1E8;
+  text-align: center;
+  z-index: 5;
+}
+
+.search-bar {
+  position: absolute;
+  top: 416px;
+  left: 703px;
+  border-radius: 26px;
+  width: 247px;
+  height: 48px;
+  background-color: #E55D5D;
+  background-image: url(images/SearchIcon.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  z-index: 5;
+}
+
+.search-text {
+  border-radius: 26px;
+  width: 247px;
+  height: 43px;
+  margin-left: -50px;
+  background-color: #fff;
+  background-image: url(images/_ionicons_svg_ios-book.svg);
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  color: #222222;
+  font-family: "Noto Sans", Regular, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  z-index: 10;
+}
+
+
+.next {
+  margin: 30px 0;
+  font-size: 30px;
+  font-family: "Noto Sans", Regular, sans-serif;
+  color: #314E65;
+  text-align: center;
+}

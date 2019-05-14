@@ -1,0 +1,21 @@
+
+.hero {
+  background-image: url('images/matt-ragland-853708-unsplash.png');
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 520px;
+  width: 1200px;
+}
+
+.hero .main-title {
+  font-size: 45px;
+  font-family: Continuo, Regular, sans-serif;
+  text-transform: uppercase;
+  width: 445px;
+  height: 112px;
+  margin: 142px 376px 266px 379px;
+  color: #D6E1E8;
+  text-align: right;
+
+}
