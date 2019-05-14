@@ -2,13 +2,12 @@ import React from 'react'
 
 import './SearchBar.css'
 
-const SearchBar = (
-  <div className="search">
-    <button className="search-btn">
-      <span>Search for courses, tutors</span>
-      <span className="icon">&nbsp;</span>
-    </button>
-  </div>
-)
+function SearchBar () {
+  return (
+    <form id="searchForm" className="search-bar">
+      <input type="text" className="search-text" id="searchField" placeholder="Search for courses, tutors" />
+    </form>
+  )
+}
 
 export default SearchBar
