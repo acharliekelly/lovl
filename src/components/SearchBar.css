@@ -12,6 +12,13 @@
   background-position: 95% 50%;
   z-index: 5;
 }
+.search-bar .btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 2px;
+}
 
 .search-text {
   border-radius: 26px;
