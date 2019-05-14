@@ -1,21 +1,31 @@
-
-.hero {
-  background-image: url('images/matt-ragland-853708-unsplash.png');
-  background-clip: content-box;
-  background-repeat: no-repeat;
-  background-size: contain;
+.splash {
+  width: 100%;
   height: 520px;
-  width: 1200px;
+  background-image: url(../images/matt-ragland-853708-unsplash.png);
+  opacity: 61%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/matt-ragland-853708-unsplash.svg);
+  background-size: cover;
+  z-index: 1;
 }
 
-.hero .main-title {
-  font-size: 45px;
+.splash .main-title {
+  font-size: 38px;
   font-family: Continuo, Regular, sans-serif;
   text-transform: uppercase;
-  width: 445px;
+  width: 485px;
   height: 112px;
-  margin: 142px 376px 266px 379px;
+  position: absolute;
+  top: 232px;
+  left: 579px;
+  /* margin: 142px 376px 266px 379px; */
   color: #D6E1E8;
-  text-align: right;
-
+  text-align: center;
+  z-index: 5;
 }
