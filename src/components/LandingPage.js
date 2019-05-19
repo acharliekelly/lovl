@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import './LandingPage.css'
-import SearchBar from './SearchBar'
+import './LandingPage.css';
+import SearchBar from './SearchBar';
 
 function LandingPage () {
   return (
@@ -14,7 +14,7 @@ function LandingPage () {
         <SearchBar />
       </div>
     </div>
-  )
+  );
 }
 
-export default LandingPage
+export default LandingPage;
