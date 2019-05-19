@@ -14,7 +14,7 @@
     "no-var": "error",
     "semi": [
       "error",
-      "never"
+      "always"
     ],
     "quotes": [
       "error",
